@@ -17,6 +17,7 @@ $(function() {
     lMap.showAllForId(id);
     showTagsForId(id);
     showAccelerometerForId(id);
+    $('[data-tab="map"]').click();
   });
 });
 
